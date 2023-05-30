@@ -1,0 +1,322 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+form {
+  border: 1px solid black;
+  background-color: white;
+  padding: 32px 12px;
+  border-radius: 12px;
+  max-width: 500px;
+}
+input {
+  border-radius: 6px !important;
+}
+
+li:not(:last-child) {
+  margin-bottom: 8px;
+}
+footer {
+  background-color: #000000;
+  margin-top: 240px;
+}
+.nav-link {
+  padding: 0 9px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "PlusJakarta";
+  letter-spacing: 0.8px;
+}
+.ul {
+  margin-bottom: 0;
+}
+
+.headerclass {
+  font-family: "ClashDisplay";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 50px;
+  font-size: 61px;
+  line-height: 75px;
+  text-align: center;
+
+  margin-top: 100px;
+
+  color: #1d1d1b;
+}
+.headerclass-2 {
+  font-family: " ClashDisplay ";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 50px;
+  text-align: center;
+
+  margin-top: 150px;
+  margin-bottom: 34px;
+
+  color: #1d1d1b;
+}
+.card-content-main {
+  margin-top: 18px;
+}
+
+.landing-footer {
+  margin-top: 115px;
+  margin-bottom: 115px;
+}
+.landing-footer-text:hover {
+  color: #ffffff;
+}
+
+.landing-footer-text {
+  color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.footer-landing-element {
+  margin-bottom: 18px;
+}
+
+.btn {
+  border: unset;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 14px;
+  font-family: "PlusJakarta";
+  letter-spacing: 0.8px;
+  line-height: 1;
+}
+.btn-primary {
+  background-color: #000000;
+  border-radius: 6px;
+}
+.btn-primary:hover {
+  background-color: #00000099;
+  border-radius: 6px;
+}
+.landing-img-text {
+  margin-bottom: 100px;
+}
+
+.mt-cont {
+  margin-top: 86px;
+  max-width: 1440px !important;
+}
+.landing-container {
+  max-width: 1440px;
+}
+h1 {
+  font-size: 61px;
+}
+.first-col {
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text-decoration-underline {
+  text-decoration: underline;
+}
+.landing-card-header {
+  font-family: "ClashDisplay";
+  font-size: 24px;
+  color: #1d1d1b;
+}
+.landing-card-text {
+  font-family: "PlusJakarta";
+  font-size: 20px;
+  line-height: 29px;
+  color: #3a3a3a;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.landing-h2-small {
+  font-family: "PlusJakarta";
+  font-size: 26px;
+  line-height: 42px;
+  /* or 162% */
+  margin-top: 48px;
+
+  text-align: center;
+
+  color: #1d1d1b;
+}
+.landing-h3-small {
+  font-family: "ClashDisplay";
+  font-size: 24px;
+  line-height: 28px;
+  color: #1d1d1b;
+}
+.landing-text-info {
+  font-family: "PlusJakarta";
+  font-size: 20px;
+  line-height: 29px;
+  margin-top: 16px;
+  color: #3a3a3a;
+}
+
+.landing-info {
+  font-family: "ClashDisplay";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
+  color: #1d1d1b;
+  margin-top: 150px;
+  text-align: center;
+}
+.landing-info:hover {
+  color: #1d1d1b;
+}
+
+.landing-card {
+  border-radius: 10px;
+  border: 1px solid #d2d2d2;
+  padding: 32px 12px 32px 24px;
+  min-height: 203.8px;
+  margin-top: 30px;
+}
+a:hover {
+  text-decoration: unset;
+}
+
+@media (max-width: 1440px) {
+  .mt-cont {
+    margin-top: 86px;
+    max-width: 1440px !important;
+    margin-bottom: 128px;
+    overflow: hidden;
+    padding: 32px;
+  }
+
+  .landing-container {
+    padding: 0 64px;
+  }
+}
+@media (max-width: 1024px) {
+  .mt-cont {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 525px) {
+  .landing-carousel {
+    margin-top: 100px;
+  }
+  .container {
+    padding: 32px;
+  }
+  .first-col {
+    margin-bottom: 0;
+  }
+  .landing-img-text {
+    margin-bottom: 0;
+  }
+
+  .headerclass {
+    color: #1d1d1b;
+    font-family: "ClashDisplay";
+    font-style: normal;
+    font-size: 41px;
+    line-height: 55px;
+    text-align: center;
+
+    margin-top: 180px;
+  }
+  .landing-mobilemenu {
+    max-width: 70px;
+    padding: 0px;
+  }
+
+  .landing-h2-small {
+    font-family: "PlusJakarta";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #000000;
+    /* or 162% */
+
+    text-align: center;
+  }
+
+  .landing-card {
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
+  .landing-footer {
+    margin-bottom: 0px;
+    margin-top: 32px;
+  }
+
+  .landing-container {
+    padding: 0 16px;
+  }
+  .mt-cont {
+    padding: 0 16px;
+    margin-top: 16px;
+  }
+  .landing-info {
+    font-family: "ClashDisplay";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 50px;
+    color: #1d1d1b;
+    margin-top: 26px;
+
+    text-align: start;
+  }
+}
+@media (max-width: 525px) {
+  .headerclass {
+    margin-top: 64px;
+  }
+  .landing-mobilemenu {
+    max-width: 60px;
+    padding: 0px;
+  }
+
+  .landing-h2-small {
+    line-height: 1.4;
+  }
+  .landing-h3-small {
+    margin-top: 80px;
+    text-align: center;
+  }
+  .landing-text-info {
+    font-size: 18px;
+  }
+
+  .mt-cont {
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+  .headerclass-2 {
+    margin-top: 64px;
+  }
+  .card-content-main {
+    margin-bottom: 100px;
+    margin-top: 16px;
+  }
+
+  .landing-card-text {
+    font-size: 18px;
+  }
+  footer {
+    margin-top: 90px;
+  }
+}
